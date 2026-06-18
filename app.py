@@ -29,7 +29,7 @@ st.title(artista)
 video, sobre =st.tabs(['Video','Sobre o artista'])
 
 with video:
-    st.video(genero[genero][artista])
+    st.video(generos[genero][artista])
 
 with sobre:
     if artista == 'Raimundos':
